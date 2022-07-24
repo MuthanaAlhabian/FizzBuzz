@@ -1,7 +1,7 @@
 :root{
     --primary-color: #1d5888;
     --secondary-color: #ff993b;
-    --dark-color: #292929;
+    --dark-color: #0075be;
     --white-color: #e7e7e7;
 }
 
@@ -54,6 +54,21 @@ footer .social>a:hover{
 
 .checklist>li i{
     color: var(--secondary-color);
+}
+
+.Fizz{
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.Buzz{
+    color: darkblue;
+    font-weight: bold;
+}
+
+.FizzBuzz{
+    color: red;
+    font-weight: bold;
 }
 
 code[class*="language-"], 
